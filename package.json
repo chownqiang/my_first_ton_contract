@@ -4,17 +4,23 @@
   "description": "* tutorials   * https://stepik.org/course/201638/syllabus?auth=registration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile":"ts-node ./scripts/compile.ts"
+    "test": "npm run compile && npx jest",
+    "compile": "ts-node ./scripts/compile.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@swc/core": "^1.6.13",
     "@ton-community/func-js": "^0.7.0",
+    "@ton-community/sandbox": "^0.11.0",
+    "@ton-community/test-utils": "^0.3.0",
+    "@types/jest": "^29.5.12",
     "@types/node": "^20.14.10",
+    "jest": "^29.7.0",
+    "ton": "^13.9.0",
     "ton-core": "^0.53.0",
     "ton-crypto": "^3.2.0",
+    "ts-jest": "^29.2.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   }
