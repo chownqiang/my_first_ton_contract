@@ -1,0 +1,21 @@
+{
+  "name": "my_first_contract",
+  "version": "1.0.0",
+  "description": "* tutorials   * https://stepik.org/course/201638/syllabus?auth=registration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile":"ts-node ./scripts/compile.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.6.13",
+    "@ton-community/func-js": "^0.7.0",
+    "@types/node": "^20.14.10",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
