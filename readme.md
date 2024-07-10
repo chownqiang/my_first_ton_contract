@@ -54,3 +54,9 @@ npm install qrcode-terminal @types/qrcode-terminal -D
 ```bash
 npm install @orbs-network/ton-access -D
 ```
+
+* env
+
+```bash
+npm install dotenv -D
+```
