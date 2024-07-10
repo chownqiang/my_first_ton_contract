@@ -33,3 +33,24 @@ npm install @ton-community/sandbox jest ts-jest @types/jest ton -D
 npm install @ton-community/test-utils -D
 
 ```
+
+
+* qs
+查询字符串
+``` bash
+npm install qs @types/qs -D
+```
+
+
+* qrcode
+二维码
+```bash
+npm install qrcode-terminal @types/qrcode-terminal -D
+```
+
+
+* ton-access
+
+```bash
+npm install @orbs-network/ton-access -D
+```

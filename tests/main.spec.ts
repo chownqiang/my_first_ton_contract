@@ -25,7 +25,7 @@ describe("main.fc contract tests", ()=>{
         });
 
         const data = await myContract.getData();
-
+  
         expect(data.recent_sender.toString()).toBe(senderWallet.address.toString());
     });
 });
