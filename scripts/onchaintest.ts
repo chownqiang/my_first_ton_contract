@@ -55,7 +55,7 @@ async function onchainTestScript() {
         const { exitCode, result } = await client4.runMethod(
             latestBlock.last.seqno,
             address,
-            "get_the_latest_sender"
+            "get_contract_storage_data"
         );
         if (exitCode !== 0) {
             console.log("Running getter method failed");
