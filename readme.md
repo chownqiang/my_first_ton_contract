@@ -60,3 +60,9 @@ npm install @orbs-network/ton-access -D
 ```bash
 npm install dotenv -D
 ```
+
+
+## Docs
+
+* [send_raw_message](https://docs.ton.org/develop/func/stdlib/#send_raw_message)
+* [message-layout](https://docs.ton.org/develop/smart-contracts/messages#message-layout)
